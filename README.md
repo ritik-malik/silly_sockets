@@ -35,6 +35,9 @@ s.connect takes only one tuple with host (which can be URL/IP) & port <br>
 * `s.sendto()` <br>
 * `s.recvfrom(buff)` <br>
 
+##### Something new for me
+[Sending an empty msg in a socket](https://stackoverflow.com/questions/3363395/how-to-receive-a-socket-message-with-an-empty-data)
+
 ##### And as always, a tree
 ┌─[michael@VSauce]─[~/Desktop/silly_sockets] <br>
 └──╼ $tree <br>
