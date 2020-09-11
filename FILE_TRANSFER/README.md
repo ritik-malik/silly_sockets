@@ -20,6 +20,6 @@ Transfer file from remote server to client, using TCP sockets in C
 when the file is finished reading, send a **END** signal to client & disconnect
 * Client saves the data until an **END** signal is received
 
-### Example : 
+### Example
 Requested the server.c file as itself from the sever <br>
 The wireshark screenshot confirms the data of server.c (the header files) being transferred
