@@ -1,9 +1,9 @@
 # silly_sockets
-Bunch of sample codes for socket programming in python <br>
+Bunch of sample codes for socket programming in python & C <br>
 
 ### Usage
-In all the programs, client sends a str to server, which replies with the base64 encoding of the input<br>
-(PS. yes, I know it can be done easily without it...)<br>
+In all the programs in Python, client sends a str to server, which replies with the base64 encoding of the input<br>
+(yes, I know it can be done easily without it...)<br>
 
 
 ### Some basic info to fill README.md
