@@ -15,10 +15,10 @@ Transfer file from remote server to client, using TCP sockets in C
 ### Code flow
 * The client accepts filename from the user & sends it to already running server
 * The server looks for the file in it's current folder
-* If the file doesn't exist, send a *NF* signal to the client for _file not found_
+* If the file doesn't exist, send a **NF** signal to the client for _file not found_
 * Else read the file & send it in chunks of 256 bytes,<br>
-when the file is finished reading, send a *END* signal to client & disconnect
-* Client saves the data until an *END* signal is received
+when the file is finished reading, send a **END** signal to client & disconnect
+* Client saves the data until an **END** signal is received
 
 ### Example : 
 Requested the server.c file as itself from the sever <br>
